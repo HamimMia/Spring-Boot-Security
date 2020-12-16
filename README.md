@@ -10,6 +10,7 @@ spring.datasource.password=root
 spring.datasource.username=root
 spring.datasource.url=jdbc:mysql://localhost:3307/usersdb
 spring.jpa.hibernate.ddl-auto=update
+
 You may have to include ?serverTimezone=UTC to the url
 
 Notice that the name of the database is usersdb and the port number is 3307.
