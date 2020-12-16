@@ -6,7 +6,7 @@ To configure the database, you need to add the necessary mySQL connection proper
 
 All the properties, you need to add are given as:
 	
-	Ispring.datasource.driver-class-name=com.mysql.cj.jdbc.Driver
+	spring.datasource.driver-class-name=com.mysql.cj.jdbc.Driver
 	spring.datasource.password=root 
 	spring.datasource.username=root 
 	spring.datasource.url=jdbc:mysql://localhost:3307/usersdb 
