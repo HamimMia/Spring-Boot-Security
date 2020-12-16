@@ -1,18 +1,15 @@
 Spring Security – Storing User Credential in MySQL Database
 
 1. Configure mySQL database
+
 To configure the database, you need to add the necessary mySQL connection properties in the application.properties file.
 
 All the properties, you need to add are given as:
 
 spring.datasource.driver-class-name=com.mysql.cj.jdbc.Driver
-
 spring.datasource.password=root
-
 spring.datasource.username=root
-
 spring.datasource.url=jdbc:mysql://localhost:3307/usersdb
-
 spring.jpa.hibernate.ddl-auto=update
 
 You may have to include ?serverTimezone=UTC to the url
